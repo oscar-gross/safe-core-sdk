@@ -1,5 +1,5 @@
 import { SafeVersion } from '@gnosis.pm/safe-core-sdk-types'
-import { DeploymentFilter, getSafeSingletonDeployment } from '@gnosis.pm/safe-deployments'
+import { DeploymentFilter, getSafeSingletonDeployment } from 'safe-deployments-fork2'
 import { networks } from '../src/eip-3770/config'
 
 const safeVersion: SafeVersion = '1.3.0'

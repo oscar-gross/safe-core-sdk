@@ -43,6 +43,7 @@
     "@ethersproject/bignumber": "^5.7.0",
     "@ethersproject/contracts": "^5.7.0",
     "@gnosis.pm/safe-deployments": "1.16.0",
+    "safe-deployments-fork2": "1.0.0",
     "web3-core": "^1.7.5"
   }
 }

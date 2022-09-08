@@ -14,7 +14,7 @@ import {
   getSafeL2SingletonDeployment,
   getSafeSingletonDeployment,
   SingletonDeployment
-} from '@gnosis.pm/safe-deployments'
+} from 'safe-deployments-fork2'
 import { ContractNetworkConfig } from '../types'
 import { safeDeploymentsL1ChainIds, safeDeploymentsVersions } from './config'
 

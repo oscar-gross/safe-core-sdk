@@ -2,7 +2,7 @@ import { Interface } from '@ethersproject/abi'
 import { TransactionReceipt } from '@ethersproject/abstract-provider'
 import { getAddress } from '@ethersproject/address'
 import { SafeTransactionData } from '@gnosis.pm/safe-core-sdk-types'
-import { getCreateCallDeployment } from '@gnosis.pm/safe-deployments'
+import { getCreateCallDeployment } from 'safe-deployments-fork2'
 
 export const createLibDeployment = getCreateCallDeployment()
 export const createLibAddress = createLibDeployment!!.defaultAddress
